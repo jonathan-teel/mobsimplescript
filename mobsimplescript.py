@@ -5,7 +5,6 @@ __credits__ = ['Jonathan Teel']
 __license__ = 'MIT'
 __version__ = '1.0.0'
 __maintainer__ = 'Jonathan Teel'
-__email__ = 'jonathan@jonathanteel.com'
 __status__ = 'Development'
 
 import sys
@@ -73,7 +72,6 @@ def buildDrugData(d, amt, bs):
         ddate['buy'] = 'Buy'
     else:
         ddate['sell'] = 'Sell'
-    ddate['o'] = '1234'
     return ddate
 
 def pdoDrug(drug, amount, type):
@@ -360,7 +358,7 @@ def startBtnClick():
 t = None
 window = Tk()
 window.title('Mob Simple Script')
-window.geometry('400x200')
+window.geometry('600x200')
 
 elbl = Label(window, text="Enter the email : ")
 elbl.grid(column=0, row=0)
