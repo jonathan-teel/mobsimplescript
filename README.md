@@ -1,6 +1,17 @@
 # mobsimplescript
 Unoffical, simplified, resource friendly rank script for beginners on mobstar.cc
 
+## What does it do
+
+This script does:
+
+1. crimes
+2. gta (does not ship)
+3. drugrun (times based on plane)
+4. jailbust
+
+Actions are spaced at 15 second intervals
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project for production purposes.

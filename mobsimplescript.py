@@ -220,10 +220,6 @@ def pdoDrugRun():
     pdoFly(flyto)
     pdoDrug(fdr, amt, 'sell')
 
-def pdoLead():
-    buyOre()
-    makeLead()
-
 ####
  
 def getPlayerInfo():
