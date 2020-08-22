@@ -24,10 +24,10 @@ params = {}
 headers = requests.utils.default_headers()
 headers.update({
     'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0',
-    'Origin': 'http://www.mobstar.cc'
+    'Origin': 'https://www.mobstar.cc'
 })
 req = requests.Session()
-url = "http://mobstar.cc"
+url = "https://mobstar.cc"
 rank = ''
 cash = ''
 plane = ''
